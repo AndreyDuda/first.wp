@@ -2,38 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa167443-3b5f-4b41-87d0-d788ecd22366" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_commentmeta.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_commentmeta.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_comments.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_comments.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_links.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_links.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_postmeta.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_postmeta.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_posts.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_posts.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_relationships.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_relationships.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_taxonomy.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_taxonomy.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_termmeta.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_termmeta.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_terms.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_terms.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_usermeta.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_usermeta.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_users.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_users.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/test/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/test/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/test/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/5947f86ebc41.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.ibd" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +20,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
+            <state relative-caret-position="864">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
@@ -55,15 +48,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
+            <state relative-caret-position="1098">
               <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28ede873-c71c-46ae-b1b6-47126fc4b81a/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -71,7 +59,41 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/test/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -88,14 +110,16 @@
       <list>
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/nginx/default.conf" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/test/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-65" />
-    <option name="y" value="300" />
-    <option name="width" value="1880" />
-    <option name="height" value="831" />
+    <option name="x" value="-327" />
+    <option name="y" value="27" />
+    <option name="width" value="1870" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,17 +135,36 @@
               <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
               <item name="first.wp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first.wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first.wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first.wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../advert.loc" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -128,6 +172,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker" />
     </key>
@@ -157,6 +202,8 @@
       <workItem from="1551974347134" duration="1395000" />
       <workItem from="1551975775131" duration="1590000" />
       <workItem from="1551984996680" duration="1174000" />
+      <workItem from="1552138588674" duration="754000" />
+      <workItem from="1552151659938" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1551986882831</created>
@@ -169,7 +216,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4159000" />
+    <option name="totallyTimeSpent" value="5388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,7 +230,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24653149" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24919957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,7 +248,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3294956" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,25 +272,46 @@
     <entry file="file://$PROJECT_DIR$/docker/nginx.docker">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28ede873-c71c-46ae-b1b6-47126fc4b81a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="864">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="1098">
           <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28ede873-c71c-46ae-b1b6-47126fc4b81a/console.sql">
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
