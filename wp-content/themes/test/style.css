@@ -40,15 +40,17 @@ header *{
 .header-top, .header-bottom{
     border-bottom: 1px solid #eeeeee;
 }
-.header-top h1{
+.header-top .logo{
     font-family: val;
     font-size: 36px;
     float: left;
     padding: 20px 0;
     margin: 0;
     color: #bc8a59;
+    display: block;
+    text-decoration: none;
 }
-.header-top h1::before{
+.header-top .logo::before{
     content: "";
     display: inline-block;
     width: 25px;
@@ -75,7 +77,7 @@ nav a{
     text-decoration: none;
     display: block;
 }
-nav a.active{
+nav a.active, nav li.current-menu-item a{
     color: #8a6540;
 }
 nav a:hover{
@@ -257,7 +259,7 @@ footer>span{
         margin: 0 auto;
         padding: 0 10px;
     }
-    .header-top h1{
+    .header-top .logo{
         float: none;
         text-align:center;
     }

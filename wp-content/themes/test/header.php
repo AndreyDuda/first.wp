@@ -1,24 +1,26 @@
 <!doctype html>
-<html lang="ru">
+<?php language_attributes(); ?>
 	<head>
 		<title>Главная</title>
-		<meta charset="utf-8">
+		<meta charset=<?php bloginfo('charset'); ?>>
 		<meta name="viewport" content="width=device-width">
+
+        <?php wp_head(); ?>
 	</head>
 	<body>
 		<div  class="wrapper">
             <header>
                 <div class="header-top clearfix">
-                    <h1>Wood Design</h1>
+                    <a href="<?php echo home_url()?>" class="logo"><?php bloginfo(name);?></a>
                     <nav>
                         <div class="menu-button">MENU</div>
-                        <ul>
-                            <li><a href="#" class="active">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
+                        <?php
+                            wp_nav_menu([
+                                'theme_location' => 'top',
+                                'container'      => null, //удаляем wp теги
+                                'item_wrap'      => '<ul>%3$s</ul>'
+                            ]);
+                        ?>
                     </nav>
                 </div>
                 <div  class="header-bottom">
