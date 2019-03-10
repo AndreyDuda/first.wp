@@ -11,7 +11,7 @@
 		<div  class="wrapper">
             <header>
                 <div class="header-top clearfix">
-                    <a href="<?php echo home_url()?>" class="logo"><?php bloginfo(name);?></a>
+                    <a href="<?php echo home_url()?>" class="logo"><?php bloginfo('name');?></a>
                     <nav>
                         <div class="menu-button">MENU</div>
                         <?php
@@ -27,3 +27,4 @@
                     <span>Wood Design is a modern web & graphic design studio in Europe. We create beautiful things for web and print. You can see our great work examples in <a href="#">Portfolio</a>. If you need a professional design services <a href="#">Contact</a> us. We would love to work with you.</span>
                 </div>
             </header>
+            <div  class="content-wrapper clearfix">

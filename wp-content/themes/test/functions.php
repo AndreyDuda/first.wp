@@ -18,3 +18,15 @@ add_action('after_setup_theme', function () { // регистрация меню
     register_nav_menu('top', 'Для шапки');
     register_nav_menu('footer', 'Для подвала');
 });
+
+add_action('widgets_init', function () { // регистрация сайт бара
+    register_sidebar([
+        'name'        => 'Sidebar-Right',
+        'id'          => 'sidebar-right',
+        'description' => 'Правая колонка',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget'  => "</div>\n"
+    ]);
+
+
+});

@@ -1,4 +1,5 @@
 </div>
+</div>
 <footer  class="clearfix">
     <div class="footer-links clearfix">
         <a href="#">

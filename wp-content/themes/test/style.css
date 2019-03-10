@@ -200,20 +200,23 @@ aside ul{
     clear: both;
     text-align:  right;
 }
-h2.menu{
+.widgettitle{
     padding: 10px 0;
 }
-.secondery-navigation li:first-child a{
+.widget_categories li:first-child a{
     transition: display 2s;
     border-top: 1px solid #eee;
 }
-.secondery-navigation a{
+.widget_categories li.current-cat a{
+    color:#000e14;
+}
+.widget_categories a{
     text-decoration: none;
     display: block;
     padding: 8px 5px;
     border-bottom: 1px solid #eee;
 }
-.secondery-navigation a:hover{
+.widget_categories a:hover{
     background: #f9f9f9;
     color: #333;
 }
