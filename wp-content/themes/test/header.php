@@ -11,7 +11,7 @@
             <header>
                 <div class="header-top clearfix">
                     <a href="<?php echo home_url()?>" class="logo"><?php bloginfo('name');?></a>
-                    <nav>
+                    <nav class="topmenu">
                         <div class="menu-button">MENU</div>
                         <?php
                             wp_nav_menu([

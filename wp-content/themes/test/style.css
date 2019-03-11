@@ -25,6 +25,10 @@ span {
 header *{
     color: #b8b8b8;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 .clearfix::after{
     content: "";
     display: block;
@@ -62,28 +66,28 @@ header *{
     background: url(assets/img/logo.png) no-repeat;
     background-size: 100%;
 }
-nav{
+.topmenu{
     float: right;
     padding: 20px 0;
 }
-nav li, .menu-button{
+.topmenu li, .menu-button{
     padding: 10px;
     margin: 0 5px;
 }
 .menu-button{
     display: none;
 }
-nav li{
+.topmenu li{
     display: inline-block;
 }
-nav a{
+.topmenu a{
     text-decoration: none;
     display: block;
 }
-nav a.active, nav li.current-menu-item a{
+.topmenu a.active, .topmenu li.current-menu-item a{
     color: #8a6540;
 }
-nav a:hover{
+.topmenu a:hover{
     color: #f2b77d;
 }
 .header-bottom{
@@ -115,6 +119,9 @@ main h2{
 }
 main span{
     line-height: 25px;
+}
+main .postItem-full{
+    margin-right: 20px;
 }
 main .postItem{
     float: left;
@@ -270,7 +277,7 @@ footer>span{
         float: none;
         text-align:center;
     }
-    nav{
+    .topmenu{
         float: none;
         text-align:center;
         padding: 0;
@@ -295,7 +302,7 @@ footer>span{
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
     }
-    .secondery-navigation ul{
+    .secondery-.topmenuigation ul{
         display:none;
     }
     footer>span, .footer-links{
@@ -311,7 +318,7 @@ footer>span{
 }
 
 @media screen and (max-width: 480px) {
-    nav {
+    .topmenu {
         position:relative;
     }
     .menu-button{
@@ -319,18 +326,18 @@ footer>span{
         cursor: pointer;
         display: block;
     }
-    nav ul{
+    .topmenu ul{
         background: #fff;
         position: absolute;
         width:100%;
         display: none;
         border-top: 1px solid #eee;
     }
-    nav li{
+    .topmenu li{
         display: block;
         border-bottom: 1px solid #eee;
     }
-    nav a:hover{
+    .topmenu a:hover{
         background: #fafafa;
     }
     main .postItem{
