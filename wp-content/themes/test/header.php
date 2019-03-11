@@ -22,10 +22,6 @@
                         ?>
                     </nav>
                 </div>
-                <?php if (is_active_sidebar('sidebar-top')) : ?>
-                    <div  class="header-bottom">
-                        <?php dynamic_sidebar('sidebar-top') ?>
-                    </div>
-                <?php endif; ?>
+                <?php get_sidebar('header') ?>
             </header>
             <div  class="content-wrapper clearfix">

@@ -21,6 +21,8 @@ add_action('after_setup_theme', function () { // регистрация меню
 
     add_theme_support( 'post-thumbnails' );  // миниатюры к постам
     add_theme_support( 'title-tag' );  // авто тайтл страниц
+
+    add_theme_support('post-formats', array('aside', 'quote'));
 });
 
 add_action('widgets_init', function () { // регистрация сайт бара
@@ -59,6 +61,7 @@ add_shortcode('test_recent', function ($attr) {
         'post_type'   => 'post',
     );
     $posts = get_posts($args);
+    global $post;
 
     foreach($posts as $post ){
         setup_postdata($post);
