@@ -77,6 +77,7 @@ $table_prefix = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define( 'WP_DEBUG', false );
+define('FS_METHOD','direct'); // не запрашивать данные о сервере при работе с плагинами
 
 /* Это всё, дальше не редактируем. Успехов! */
 

@@ -40,6 +40,9 @@ header *{
 .header-top, .header-bottom{
     border-bottom: 1px solid #eeeeee;
 }
+.header-bottom .textwidget{
+    line-height: 30px;
+}
 .header-top .logo{
     font-family: val;
     font-size: 36px;
@@ -113,23 +116,24 @@ main h2{
 main span{
     line-height: 25px;
 }
-main section{
+main .postItem{
     float: left;
-    max-width: 47%;
+    width: 47%;
     margin-bottom: 10px;
     margin-right: 3%;
 }
-main section:nth-child(2n+3){
+main .postItem:nth-child(2n+3){
     clear: both;
 }
-main section a{
+main .postItem a{
     display: block;
     padding: 4px;
     border: 1px solid rgba(184,184,184,0.3);
     border-radius: 5px;
 }
-main section img{
+main .postItem img{
     width: 100%;
+    height: auto;
 }
 .main-footer{
     clear: both;
@@ -279,7 +283,7 @@ footer>span{
     main{
         border-bottom: 1px solid #eee;
     }
-    main section{
+    main .postItem{
         margin: 0 1.5%;
     }
     .main-footer a{
@@ -329,9 +333,8 @@ footer>span{
     nav a:hover{
         background: #fafafa;
     }
-    main section{
-        float: none;
-        max-width:none;
+    main .postItem{
+        width:none;
     }
     .main-footer{
         float: none;
