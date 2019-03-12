@@ -8,7 +8,9 @@ add_action('wp_head', function () {
 
 add_action('wp_enqueue_scripts', function () { // регистрация скриптов и стилей
     wp_enqueue_style('test-main-css', get_template_directory_uri() . '/style.css');
-    wp_enqueue_script('test-main-js', get_template_directory_uri() . '/assets/js/script.js');
+    wp_enqueue_script('test-script-jquery', get_template_directory_uri() . '/assets/js/jquery-3.2.0.min.js');
+    wp_enqueue_script('test-main-js', get_template_directory_uri() . '/assets/js/script.js', ['test-script-jquery']);
+
 });
 
 /*function test_media() {
