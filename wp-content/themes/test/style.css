@@ -105,6 +105,10 @@ h2{
     padding: 5px 0 5px;
     font-weight: normal;
 }
+main.main-full{
+    width: auto!important;
+    float: none;
+}
 main, main *, aside{
     box-sizing: border-box;
 }
