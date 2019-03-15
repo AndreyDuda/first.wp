@@ -36,4 +36,21 @@ $(function () {
             }
         }
     });
+
+    $('.flat-app-btn').on('click', function(){
+        var data = {
+            action: 'flatapp',
+            flat_id: $('input[name=id_flat]').val(),
+            phone: $('input[name=phone]').val()
+        };
+
+        $.post(window.wp.ajax_url, data, function(res){
+            if(res.success){
+                alert('Ура');
+            }
+            else{
+                alert(res.err);
+            }
+        }, 'json');
+    });
 });

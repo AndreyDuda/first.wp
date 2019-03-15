@@ -4,7 +4,20 @@ include_once (__DIR__ . '/inc/test-recent-posts.php');
 
 add_action('wp_head', function () {
     echo 'Добавить что то в HEADER';
+    $vars = array(
+        'ajax_url' => admin_url('admin-ajax.php')
+    );
+
+    echo "<script>window.wp = " . json_encode($vars) . "</script>";
 });
+
+add_action('wp_ajax_flatapp', 'ajax');
+add_action('wp_ajax_nopriv', 'ajax');
+
+function ajax() {
+    echo 1;
+    wp_die();
+}
 
 add_action('wp_enqueue_scripts', function () { // регистрация скриптов и стилей
     wp_enqueue_style('test-main-css', get_template_directory_uri() . '/style.css');
