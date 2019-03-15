@@ -15,4 +15,25 @@ $(function () {
         }
 
     });
+
+    $('.reviews-box').owlCarousel({
+        loop:true,
+        margin: 30,
+        responsiveClass: true,
+        response: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 3,
+                nav: false
+            },
+            1000: {
+                items: 5,
+                nav: true,
+                loop: false
+            }
+        }
+    });
 });
