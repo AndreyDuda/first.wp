@@ -7,14 +7,16 @@
 			<?php 
 				$cities = get_the_terms($post->ID, 'city'); 
 			?>
-			<div>
-				<strong>Город:</strong>
-				<?php foreach($cities as $city){ ?>
-					<a href="<?php echo get_term_link((int)$city->term_id) ?>">
-						<?php echo $city->name ?>
-					</a> 
-				<?php } ?>
-			</div>
+            <?php if ($cities) : ?>
+			    <div>
+			    	<strong>Город:</strong>
+			    	<?php foreach($cities as $city){ ?>
+			    		<a href="<?php echo get_term_link((int)$city->term_id) ?>">
+			    			<?php echo $city->name ?>
+			    		</a>
+			    	<?php } ?>
+			    </div>
+            <?php endif; ?>
 			<?php the_post_thumbnail('large') ?>
 			<h2><?php the_title() ?></h2>
 			<div><?php the_content() ?></div>

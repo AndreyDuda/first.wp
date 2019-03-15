@@ -29,6 +29,8 @@ add_action('after_setup_theme', function () { // регистрация меню
     add_theme_support( 'title-tag' );  // авто тайтл страниц
 
     add_theme_support('post-formats', array('aside', 'quote'));
+
+    add_image_size('flats-thumb', 400, 300, true);
 });
 
 add_action('widgets_init', function () { // регистрация сайт бара
@@ -51,9 +53,13 @@ add_action('widgets_init', function () { // регистрация сайт ба
     register_widget('Test_Recent_Posts');
 });
 add_filter('widget_text', 'do_shortcode'); // выполнение шорткода в сайтбаре
+
+
 add_shortcode('test_short', function () {
         return 'Выполнился шорт код';
 });
+
+
 add_shortcode('test_recent', function ($attr) {
     $attr = shortcode_atts( array(
         'count' => 5
@@ -99,6 +105,64 @@ add_action('init', function (){
         'hierarchical'        => false,
         'supports'            => array('title', 'editor', 'thumbnail'), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
     ]);
+    register_post_type('flats', [
+        'labels' => array(
+            'name'               => 'Квартиры', // основное название для типа записи
+            'singular_name'      => 'Квартира', // название для одной записи этого типа
+            'add_new'            => 'Добавить новую', // для добавления новой записи
+            'add_new_item'       => 'Добавление квартиры', // заголовка у вновь создаваемой записи в админ-панели.
+            'edit_item'          => 'Редактирование квартиры', // для редактирования типа записи
+            'new_item'           => 'Новая квартира', // текст новой записи
+            'view_item'          => 'Смотреть квартиру', // для просмотра записи этого типа.
+            'search_items'       => 'Искать квартиры', // для поиска по этим типам записи
+            'not_found'          => 'Не найдено', // если в результате поиска ничего не было найдено
+            'not_found_in_trash' => 'Не найдено в корзине', // если не было найдено в корзине
+            'parent_item_colon'  => '', // для родителей (у древовидных типов)
+            'menu_name'          => 'Квартиры', // название меню
+        ),
+        'public'              => true,
+        'menu_position'       => 25,
+        'menu_icon'           => 'dashicons-category',
+        'hierarchical'        => false,
+        'supports'            => array('title', 'editor', 'thumbnail'),
+        'has_archive'         => true
+    ]);
+
+    register_taxonomy('city', array('flats'), array(
+        'labels'                => array(
+            'name'              => 'Города',
+            'singular_name'     => 'Город',
+            'search_items'      => 'Найти город',
+            'all_items'         => 'Все города',
+            'view_item '        => 'Посмотреть город',
+            'edit_item'         => 'Редактировать город',
+            'update_item'       => 'Обновить город',
+            'add_new_item'      => 'Добавить новый город',
+            'new_item_name'     => 'Добавить новый',
+            'menu_name'         => 'Города',
+        ),
+        'description'           => '', // описание таксономии
+        'public'                => true,
+        'hierarchical'          => false
+    ));
+
+    register_taxonomy('rooms', array('flats'), array(
+        'labels'                => array(
+            'name'              => 'Количество комнат',
+            'singular_name'     => 'Количество комнат',
+            'search_items'      => 'Количество комнат',
+            'all_items'         => 'Все варианты',
+            'view_item '        => 'Посмотреть к',
+            'edit_item'         => 'Редактировать к',
+            'update_item'       => 'Обновить к',
+            'add_new_item'      => 'Добавить новый к',
+            'new_item_name'     => 'Добавить новый',
+            'menu_name'         => 'Количество комнат'
+        ),
+        'description'           => '', // описание таксономии
+        'public'                => true,
+        'hierarchical'          => false
+    ));
 
     function test_show_reviews(){
         $args = [

@@ -5,31 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/nav-menus-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/nav-menus-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/nav-menus-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/nav-menus-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/nav-menus.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/nav-menus.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/nav-menus.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/nav-menus.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/ajax-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/ajax-actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-plugin-install-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-plugin-install-list-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/misc.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/misc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/ru_RU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_postmeta.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_postmeta.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_posts.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_posts.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_relationships.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_relationships.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_taxonomy.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_term_taxonomy.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_terms.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_terms.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_usermeta.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_usermeta.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/test/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/page-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/formatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/comment-reply.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/comment-reply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/comment-reply.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/comment-reply.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/ms-site.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/ms-site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/single-flats.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/single-flats.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +55,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1082">
-              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+            <state relative-caret-position="36">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/test/archive-flats.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/test/single-flats.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -121,6 +125,12 @@
       <find>Лендинг</find>
       <find>test_show_reviews</find>
       <find>class=&quot;menu&quot;</find>
+      <find>o_shortcode</find>
+      <find>test_short</find>
+      <find>do_shortcode</find>
+      <find>123</find>
+      <find>widget_text</find>
+      <find>the_title()</find>
     </findStrings>
     <replaceStrings>
       <replace>assets/</replace>
@@ -149,13 +159,16 @@
         <option value="$PROJECT_DIR$/wp-content/themes/test/page-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/test/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/test/archive-flats.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/test/single-flats.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
+    <option name="x" value="427" />
+    <option name="y" value="31" />
     <option name="width" value="950" />
-    <option name="height" value="584" />
+    <option name="height" value="536" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,6 +186,17 @@
             <path>
               <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
               <item name="first.wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first.wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first.wp" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,23 +211,6 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first.wp" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first.wp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first.wp" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +278,7 @@
       <workItem from="1552424038345" duration="3099000" />
       <workItem from="1552464926989" duration="1701000" />
       <workItem from="1552583879872" duration="826000" />
-      <workItem from="1552642709360" duration="1837000" />
+      <workItem from="1552642709360" duration="7407000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1551986882831</created>
@@ -371,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552583906437</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="carasel">
+      <created>1552644589551</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552644589551</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53459000" />
+    <option name="totallyTimeSpent" value="59029000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,8 +402,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19103523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19103523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,7 +416,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2309417" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.48699763" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3297062" />
@@ -428,7 +443,8 @@
     <MESSAGE value="type view" />
     <MESSAGE value="add style" />
     <MESSAGE value="landing page + scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="landing page + scroll" />
+    <MESSAGE value="carasel" />
+    <option name="LAST_COMMIT_MESSAGE" value="carasel" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker/nginx/ssl/ssl-cer-snakeoil.key">
@@ -667,10 +683,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/js/farbtastic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1082">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        <state relative-caret-position="36">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/archive-flats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/single-flats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
