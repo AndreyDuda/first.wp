@@ -46,10 +46,10 @@ $(function () {
 
         $.post(window.wp.ajax_url, data, function(res){
             if(res.success){
-                alert('Ура');
+                /*alert('Ура');*/
             }
             else{
-                alert(res.err);
+                /*alert(res.err);*/
             }
         }, 'json');
     });
