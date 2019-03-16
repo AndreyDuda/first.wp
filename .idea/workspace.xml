@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa167443-3b5f-4b41-87d0-d788ecd22366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/wp_first/wp_options.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/functions.php" afterDir="false" />
-    </list>
+    <list default="true" id="fa167443-3b5f-4b41-87d0-d788ecd22366" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="2016">
               <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
             </state>
           </provider>
@@ -86,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="936">
               <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
@@ -157,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="512" />
     <option name="y" value="180" />
     <option name="width" value="950" />
@@ -289,6 +282,7 @@
       <workItem from="1552464926989" duration="1701000" />
       <workItem from="1552583879872" duration="826000" />
       <workItem from="1552642709360" duration="11146000" />
+      <workItem from="1552665538406" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1551986882831</created>
@@ -402,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552661590527</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ajax">
+      <created>1552665554345</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552665554345</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62768000" />
+    <option name="totallyTimeSpent" value="62798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,7 +421,7 @@
   <component name="ToolWindowManager">
     <frame x="512" y="180" width="950" height="536" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3960177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40597346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,7 +433,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.92" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.92" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3297062" />
@@ -461,7 +462,8 @@
     <MESSAGE value="landing page + scroll" />
     <MESSAGE value="carasel" />
     <MESSAGE value="taxanomiya" />
-    <option name="LAST_COMMIT_MESSAGE" value="taxanomiya" />
+    <MESSAGE value="ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker/nginx/ssl/ssl-cer-snakeoil.key">
@@ -679,13 +681,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/test/assets/css/owl.theme.default.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/test/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -700,17 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/single-flats.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="257">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -721,10 +709,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/single-flats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="324">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/test/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
